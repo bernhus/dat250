@@ -11,7 +11,7 @@ git --version
 mvn -v  
 java -version  
 
-### Thechnical problems with heroku
+### Technical problems with heroku
 
 The tutorial was easy to follow and everything went well, I did not register a credit card so i was not able to verify my account so i skipped the part with addons.
 

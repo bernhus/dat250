@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<persistence xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+             version="2.0" xmlns="http://java.sun.com/xml/ns/persistence">
+    <persistence-unit name="todos" transaction-type="RESOURCE_LOCAL">
+        <class>no.hvl.dat250.jpa.basicexample.Todo</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+                      <!-- TODO Change the path in the value of the property "javax.persistence.jdbc.url" here! -->
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:derby:C:\Users\mariu\dat250\dat250\lab2\eclipselink\testDb;create=true"/>
+            <property name="javax.persistence.jdbc.user" value="test"/>
+            <property name="javax.persistence.jdbc.password" value="test"/>
+
+            <!--<property name="eclipselink.ddl-generation" value="create-tables"/>-->
+            <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+        </properties>
+
+    </persistence-unit>
+    <persistence-unit name="people" transaction-type="RESOURCE_LOCAL">
+        <!--<class>no.hvl.dat250.jpa.basicexample.Todo</class>-->
+        <class>no.hvl.dat250.jpa.basicexample.exp1.Family</class>
+        <class>no.hvl.dat250.jpa.basicexample.exp1.Job</class>
+        <class>no.hvl.dat250.jpa.basicexample.exp1.Person</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+            <!-- TODO Change the path in the value of the property "javax.persistence.jdbc.url" here! -->
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:derby:C:\Users\mariu\dat250\dat250\lab2\eclipselink\testDb;create=true"/>
+            <property name="javax.persistence.jdbc.user" value="test"/>
+            <property name="javax.persistence.jdbc.password" value="test"/>
+
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+        </properties>
+
+    </persistence-unit>
+    <persistence-unit name="bank" transaction-type="RESOURCE_LOCAL">
+        <!--<class>no.hvl.dat250.jpa.basicexample.Todo</class>-->
+        <class>no.hvl.dat250.jpa.basicexample.exp2.Address</class>
+        <class>no.hvl.dat250.jpa.basicexample.exp2.Bank</class>
+        <class>no.hvl.dat250.jpa.basicexample.exp2.CreditCard</class>
+        <class>no.hvl.dat250.jpa.basicexample.exp2.Person</class>
+        <class>no.hvl.dat250.jpa.basicexample.exp2.Pincode</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="org.apache.derby.jdbc.EmbeddedDriver"/>
+            <!-- TODO Change the path in the value of the property "javax.persistence.jdbc.url" here! -->
+            <property name="javax.persistence.jdbc.url"
+                      value="jdbc:derby:C:\Users\mariu\dat250\dat250\lab2\eclipselink\testDb;create=true"/>
+            <property name="javax.persistence.jdbc.user" value="test"/>
+            <property name="javax.persistence.jdbc.password" value="test"/>
+
+            <property name="eclipselink.ddl-generation" value="create-tables"/>
+            <property name="eclipselink.ddl-generation.output-mode" value="database"/>
+        </properties>
+
+    </persistence-unit>
+</persistence>

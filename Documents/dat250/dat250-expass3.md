@@ -1,15 +1,12 @@
 ## DAT250: Software Technology Experiment Assignment 3
-
+---
 
 #### Installation of MongoDB
 
 * The correct validation of the installation package:
 ![screenshot](img/img3.1.png)
 
-
-
-
-Experiment 1
+#### Experiment 1
   ---
 * Screenshots:
     * Insert documents:
@@ -30,7 +27,7 @@ Experiment 1
     
     
 
-Experiment 2    
+#### Experiment 2    
   ---
   Shows a new map_reduce table where the customer identity is mapped onto the date som you are able to se the customers making an order on a given date.
     

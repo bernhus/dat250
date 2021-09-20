@@ -6,6 +6,7 @@
 * The correct validation of the installation package:
 ![screenshot](img/img3.1.png)
 
+
 ### Experiment 1
   ---
 * Screenshots:

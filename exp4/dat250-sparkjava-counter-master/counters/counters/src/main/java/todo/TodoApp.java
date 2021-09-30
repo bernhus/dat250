@@ -1,7 +1,6 @@
 package todo;
 
 import com.google.gson.Gson;
-import org.eclipse.jetty.server.Authentication;
 
 import java.util.ArrayList;
 

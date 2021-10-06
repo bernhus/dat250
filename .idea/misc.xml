@@ -7,6 +7,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/exp4/dat250-sparkjava-counter-master/counters/counters/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/exp5/ex2/demo/pom.xml" />
       </list>
     </option>
   </component>

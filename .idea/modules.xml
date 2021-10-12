@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/exp4/dat250-sparkjava-counter-master/counters/counters/counters.iml" filepath="$PROJECT_DIR$/exp4/dat250-sparkjava-counter-master/counters/counters/counters.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/dat250.iml" filepath="$PROJECT_DIR$/.idea/dat250.iml" />
       <module fileurl="file://$PROJECT_DIR$/exp5/ex2/demo/demo.iml" filepath="$PROJECT_DIR$/exp5/ex2/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expa6/exp1/exp1.iml" filepath="$PROJECT_DIR$/expa6/exp1/exp1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/expa6/my-app/my-app.iml" filepath="$PROJECT_DIR$/expa6/my-app/my-app.iml" />
     </modules>
   </component>
 </project>

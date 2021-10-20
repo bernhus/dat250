@@ -9,10 +9,10 @@ No technical problems encountered during the completion of the tutorial
 [Code](https://github.com/bernhus/dat250/tree/master/exp7/exp2)
 
 ### Experiment 3: Queue messaging
-[Code](https://github.com/bernhus/dat250/tree/master/exp7/exp2)
+[Code](https://github.com/bernhus/dat250/tree/master/exp7/exp3)
 
 ### Experiment 4: Topics
-[Code](https://github.com/bernhus/dat250/tree/master/exp7/exp2)
+[Code](https://github.com/bernhus/dat250/tree/master/exp7/exp4)
 
 ### Pending issues
 No pending issues
